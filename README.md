@@ -23,19 +23,27 @@
 
 ---
 
-Since the last project I rushed things to meet the 26th of march deadline I will
-instead aim for the July deadline to be more prepared and work around my life.
+Since the last project, I rushed to meet the deadline on the 26th of March. I
+will instead aim for the July deadline to be more prepared and work around my
+life.
 
-These requirements seem like a simple layout meaning a heading and many cards in
-a row and collapsing to a column when a certain size is reached on the viewport.
+These requirements are a simple layout meaning a heading and many cards in a
+row, and collapsing to a column when a specific size is reached on the viewport.
 
 I will keep this simple as I think it is focused on CSS flexbox and JS
 fundamentals.
 
-Should have commited small chunks of code when completing the base styling and
-JS. Did JS flexbox in one commit instead of two.
+I should have committed small chunks of code when completing the base styling
+and JS. For example, I did JS flexbox in one commit instead of two separate
+commits.
 
 Design not create it follows a generic card design
+
+I only have one project, as this is the second one. Therefore, I am unsure how
+to show more projects as I only have one.
+
+Usually, I would compress images and upload them to a website, but since this
+will only have a few, the image loading shouldn't affect load times too much.
 
 ## Building
 

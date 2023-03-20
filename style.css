@@ -5,6 +5,14 @@
 	box-sizing: border-box;
 }
 
+a {
+	color: black;
+}
+
+a:hover {
+	color: #444;
+}
+
 body {
 	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 	font-size: 16px;
@@ -91,15 +99,8 @@ body {
 /* Media Queries */
 @media screen and (min-width: 300px) {
 	.card {
-		min-width: 230px;
-		max-width: 230px;
-	}
-}
-
-@media screen and (min-width: 400px) {
-	.card {
-		min-width: 300px;
-		max-width: 300px;
+		min-width: 290px;
+		max-width: 290px;
 	}
 }
 
