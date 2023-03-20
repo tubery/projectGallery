@@ -32,6 +32,11 @@ a row and collapsing to a column when a certain size is reached on the viewport.
 I will keep this simple as I think it is focused on CSS flexbox and JS
 fundamentals.
 
+Should have commited small chunks of code when completing the base styling and
+JS. Did JS flexbox in one commit instead of two.
+
+Design not create it follows a generic card design
+
 ## Building
 
 ---

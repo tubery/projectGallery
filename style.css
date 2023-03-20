@@ -7,7 +7,7 @@
 
 body {
 	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-	font-size: 20px;
+	font-size: 16px;
 	padding: 1rem;
 }
 
@@ -19,29 +19,33 @@ body {
 
 /* Gallery */
 #gallery {
-	margin: 1rem;
-	padding: 1rem;
+	margin: 0.5rem;
+	min-height: 100vh;
 }
 
 /* Card */
 .card-container {
 	display: flex;
-	flex-wrap: wrap;
-	gap: 2rem;
-	justify-content: center;
-}
-
-.card {
-	min-width: 400px;
-	max-width: 400px;
-	display: flex;
 	flex-direction: column;
-	gap: 2rem;
-	box-shadow: 0px 0px 2px 1px black;
+	flex-wrap: wrap;
+	gap: 1rem;
+	justify-content: center;
+	align-items: center;
 	padding: 1rem;
 }
 
+.card {
+	min-width: 200px;
+	max-width: 200px;
+	display: flex;
+	flex-direction: column;
+	gap: 1.5rem;
+	box-shadow: 0px 0px 2px 0px grey;
+	justify-content: start;
+}
+
 .card-image-container {
+	width: 100%;
 	margin: auto;
 }
 
@@ -56,9 +60,57 @@ body {
 
 .card-description {
 	display: none;
+	margin: 0 2rem;
+}
+
+.card-toggle-description {
+	font-size: 18px;
+	background: none;
+	border: none;
+	margin: 1rem;
+}
+
+.card-toggle-description:hover {
+	cursor: pointer;
+	text-decoration: underline;
 }
 
 /* Toggle class */
 .show {
 	display: block;
+}
+
+/* Footer */
+.footer {
+	margin: 5rem 0 0 0;
+	padding: 1rem;
+	font-size: 16px;
+	text-align: center;
+}
+
+/* Media Queries */
+@media screen and (min-width: 300px) {
+	.card {
+		min-width: 230px;
+		max-width: 230px;
+	}
+}
+
+@media screen and (min-width: 400px) {
+	.card {
+		min-width: 300px;
+		max-width: 300px;
+	}
+}
+
+@media screen and (min-width: 500px) {
+	.card-container {
+		flex-direction: row;
+		align-items: start;
+	}
+
+	.card {
+		min-width: 400px;
+		max-width: 400px;
+	}
 }
